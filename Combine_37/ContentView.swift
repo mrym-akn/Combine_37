@@ -9,24 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View{
-        VStack{
+        NavigationView{
             ZStack{
-                VStack{
-                ImageView()
-                    //.padding()
-                    Spacer()
-                }
-                VStack{
-                    JokeView()
-                        .frame(width: 300, height: 500)
-                    Spacer()
-                }
+                RandomJokeView()
                 VStack{
                     Spacer()
-                    Image("teheperoMan")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 400, height: 400)
+                    NavigationLink{
+                        BazzView()
+                    } label: {
+                        Text("バズるワードを投稿する！")
+                            .font(.title2)
+                            .foregroundColor(Color.white)
+                            .frame(width: 300, height: 40)
+                            .background(Color.blue)
+                            .cornerRadius(30)
+                    }
                 }
             }
         }

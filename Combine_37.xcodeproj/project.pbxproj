@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F0C670C287EEE7F00302210 /* BazzWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C670B287EEE7F00302210 /* BazzWordView.swift */; };
+		7F0C670E287EEE9400302210 /* BazzWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C670D287EEE9400302210 /* BazzWordViewModel.swift */; };
+		7F0C6710287EEEA300302210 /* BazzWordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C670F287EEEA300302210 /* BazzWordModel.swift */; };
+		7F0C6712287EFACD00302210 /* BazzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C6711287EFACD00302210 /* BazzView.swift */; };
+		7F0C6714287EFBA200302210 /* RandomJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0C6713287EFBA200302210 /* RandomJokeView.swift */; };
 		7F4D749A287BE2C600811F26 /* Combine_37App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D7499287BE2C600811F26 /* Combine_37App.swift */; };
 		7F4D749C287BE2C600811F26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D749B287BE2C600811F26 /* ContentView.swift */; };
 		7F4D749E287BE2C900811F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4D749D287BE2C900811F26 /* Assets.xcassets */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F0C670B287EEE7F00302210 /* BazzWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazzWordView.swift; sourceTree = "<group>"; };
+		7F0C670D287EEE9400302210 /* BazzWordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazzWordViewModel.swift; sourceTree = "<group>"; };
+		7F0C670F287EEEA300302210 /* BazzWordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazzWordModel.swift; sourceTree = "<group>"; };
+		7F0C6711287EFACD00302210 /* BazzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazzView.swift; sourceTree = "<group>"; };
+		7F0C6713287EFBA200302210 /* RandomJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeView.swift; sourceTree = "<group>"; };
 		7F4D7496287BE2C600811F26 /* Combine_37.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combine_37.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4D7499287BE2C600811F26 /* Combine_37App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_37App.swift; sourceTree = "<group>"; };
 		7F4D749B287BE2C600811F26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +50,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F0C670A287EEE6300302210 /* BazzWord */ = {
+			isa = PBXGroup;
+			children = (
+				7F0C670B287EEE7F00302210 /* BazzWordView.swift */,
+				7F0C670D287EEE9400302210 /* BazzWordViewModel.swift */,
+				7F0C670F287EEEA300302210 /* BazzWordModel.swift */,
+				7F0C6711287EFACD00302210 /* BazzView.swift */,
+			);
+			path = BazzWord;
+			sourceTree = "<group>";
+		};
 		7F4D748D287BE2C600811F26 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +83,7 @@
 				7F4D7499287BE2C600811F26 /* Combine_37App.swift */,
 				7F4D749B287BE2C600811F26 /* ContentView.swift */,
 				7FE8D625287DCF19005AF3BA /* ImageView.swift */,
+				7F0C670A287EEE6300302210 /* BazzWord */,
 				7F933C37287D5FB600046F36 /* Joke */,
 				7F4D749D287BE2C900811F26 /* Assets.xcassets */,
 				7F4D749F287BE2C900811F26 /* Preview Content */,
@@ -81,8 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				7F933C49287DA70000046F36 /* JokeView.swift */,
-				7F933C33287D518A00046F36 /* JokeModel.swift */,
+				7F0C6713287EFBA200302210 /* RandomJokeView.swift */,
 				7F933C35287D533700046F36 /* JokeViewModel.swift */,
+				7F933C33287D518A00046F36 /* JokeModel.swift */,
 			);
 			path = Joke;
 			sourceTree = "<group>";
@@ -160,8 +183,13 @@
 				7FE8D626287DCF19005AF3BA /* ImageView.swift in Sources */,
 				7F933C34287D518A00046F36 /* JokeModel.swift in Sources */,
 				7F4D749C287BE2C600811F26 /* ContentView.swift in Sources */,
+				7F0C670E287EEE9400302210 /* BazzWordViewModel.swift in Sources */,
 				7F4D749A287BE2C600811F26 /* Combine_37App.swift in Sources */,
+				7F0C6712287EFACD00302210 /* BazzView.swift in Sources */,
 				7F933C4A287DA70000046F36 /* JokeView.swift in Sources */,
+				7F0C6714287EFBA200302210 /* RandomJokeView.swift in Sources */,
+				7F0C6710287EEEA300302210 /* BazzWordModel.swift in Sources */,
+				7F0C670C287EEE7F00302210 /* BazzWordView.swift in Sources */,
 				7F933C36287D533700046F36 /* JokeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
